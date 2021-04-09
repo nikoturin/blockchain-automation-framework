@@ -70,7 +70,7 @@ The snapshot of the `docker` section with example values is below
   # Please ensure all required images are built and stored in this registry. 
   docker:
     url: "<url>"
-    username: "<username>"
+    username: "nikoturin"
     password: "<password>"
 ```
 The fields under `docker` section are
@@ -188,12 +188,12 @@ For gitops fields the snapshot from the sample configuration file with the examp
       # Git Repo details which will be used by GitOps/Flux.
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git" # Gitops htpps or ssh url for flux value files
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git" # Gitops htpps or ssh url for flux value files
         branch: "<branch_name>"                                                  # Git branch where release is being made
         release_dir: "platforms/r3-corda/releases/dev" # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/r3-corda/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "github.com/<username>/blockchain-automation-framework.git"
-        username: "<username>"          # Git Service user who has rights to check-in in all branches
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git"
+        username: "nikoturin"          # Git Service user who has rights to check-in in all branches
         password: "<password>"          # Git Server user password/personal token
         email: "<git_email>"              # Email to use in git config
         private_key: "<path to gitops private key>"
@@ -471,11 +471,11 @@ The snapshot of float service with example values is below
           url: "float_vault_addr"
           root_token: "float_vault_root_token"
         gitops:
-          git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
+          git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
           branch: "develop"           # Git branch where release is being made
           release_dir: "platforms/r3-corda-ent/releases/float" # Relative Path in the Git repo for flux sync per environment. 
           chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
-          git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+          git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
           username: "git_username"          # Git Service user who has rights to check-in in all branches
           password: "git_access_token"          # Git Server user password/access token
           email: "git_email"                # Email to use in git config

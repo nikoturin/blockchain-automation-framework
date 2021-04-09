@@ -118,11 +118,11 @@ For reference, sample `network.yaml` file looks like below (but always check the
       # Do not check-in git_access_token
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git"                   # Gitops https or ssh url for flux value files 
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"                   # Gitops https or ssh url for flux value files 
         branch: "develop"                     # Git branch where release is being made
         release_dir: "platforms/hyperledger-indy/releases/dev"           # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/hyperledger-indy/charts"               # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "github.com/<username>/blockchain-automation-framework.git"             # Gitops git repository URL for git push 
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git"             # Gitops git repository URL for git push 
         username: "git_username"                    # Git Service user who has rights to check-in in all branches
         password: "git_access_token"                    # Git Server user password
         email: "git_email"                          # Email to use in git config
