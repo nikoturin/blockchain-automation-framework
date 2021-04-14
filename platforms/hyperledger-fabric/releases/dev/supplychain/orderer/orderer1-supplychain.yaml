@@ -39,11 +39,7 @@ spec:
           clusteripport: 7050
 
     vault:
-<<<<<<< HEAD
-      address: http://192.168.56.1:8200
-=======
       address: http://172.17.0.4:8200
->>>>>>> ed864781c46fc9b6f85dcf8aead6d278292f0b15
       role: vault-role
       authpath: supplychain-net-auth
       secretprefix: secret/crypto/ordererOrganizations/supplychain-net/orderers/orderer1.supplychain-net
@@ -58,11 +54,7 @@ spec:
       - kafka-2.broker.supplychain-net.svc.cluster.local:9092
 
     proxy:
-<<<<<<< HEAD
       provider: haproxy
-=======
-      provider: none
->>>>>>> ed864781c46fc9b6f85dcf8aead6d278292f0b15
       external_url_suffix: develop.local.com
 
     genesis: |-

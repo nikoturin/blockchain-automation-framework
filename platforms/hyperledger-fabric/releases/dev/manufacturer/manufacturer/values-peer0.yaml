@@ -40,11 +40,7 @@ spec:
 
     vault:
       role: vault-role
-<<<<<<< HEAD
-      address: http://192.168.56.1:8200
-=======
       address: http://172.17.0.4:8200
->>>>>>> ed864781c46fc9b6f85dcf8aead6d278292f0b15
       authpath: manufacturer-net-auth
       secretprefix: secret/crypto/peerOrganizations/manufacturer-net/peers/peer0.manufacturer-net
       secretambassador: secret/crypto/peerOrganizations/manufacturer-net/ambassador
@@ -63,9 +59,5 @@ spec:
           clusteripport: 5984
           
     proxy:
-<<<<<<< HEAD
       provider: haproxy
-=======
-      provider: none
->>>>>>> ed864781c46fc9b6f85dcf8aead6d278292f0b15
       external_url_suffix: develop.local.com
