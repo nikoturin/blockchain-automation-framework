@@ -40,7 +40,11 @@ spec:
 
     vault:
       role: vault-role
+<<<<<<< HEAD
       address: http://192.168.56.1:8200
+=======
+      address: http://172.17.0.4:8200
+>>>>>>> ed864781c46fc9b6f85dcf8aead6d278292f0b15
       authpath: carrier-net-auth
       secretprefix: secret/crypto/peerOrganizations/carrier-net/peers/peer0.carrier-net
       secretambassador: secret/crypto/peerOrganizations/carrier-net/ambassador
@@ -59,5 +63,9 @@ spec:
           clusteripport: 5984
           
     proxy:
+<<<<<<< HEAD
       provider: haproxy
+=======
+      provider: none
+>>>>>>> ed864781c46fc9b6f85dcf8aead6d278292f0b15
       external_url_suffix: develop.local.com

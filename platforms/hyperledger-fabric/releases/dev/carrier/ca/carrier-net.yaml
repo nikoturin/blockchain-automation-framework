@@ -8,7 +8,7 @@ metadata:
 spec:
   releaseName: carrier-net-ca
   chart:
-    git: https://github.com/<username>/blockchain-automation-framework.git
+    git: https://github.com/nikoturin/blockchain-automation-framework.git
     ref: local
     path: platforms/hyperledger-fabric/charts/ca    
   values:

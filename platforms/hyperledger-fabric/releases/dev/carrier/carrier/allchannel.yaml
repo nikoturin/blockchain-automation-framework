@@ -28,7 +28,11 @@ spec:
 
     vault:
       role: vault-role
+<<<<<<< HEAD
       address: http://192.168.56.1:8200
+=======
+      address: http://172.17.0.4:8200
+>>>>>>> ed864781c46fc9b6f85dcf8aead6d278292f0b15
       authpath: carrier-net-auth
       adminsecretprefix: secret/crypto/peerOrganizations/carrier-net/users/admin
       orderersecretprefix: secret/crypto/peerOrganizations/carrier-net/orderer 

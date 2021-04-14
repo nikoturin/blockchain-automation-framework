@@ -80,14 +80,14 @@ network:
       # Do not check-in git_access_token
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
         branch: "develop"           # Git branch where release is being made
         release_dir: "platforms/r3-corda-ent/releases/dev" # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
         username: "git_username"          # Git Service user who has rights to check-in in all branches
         password: "git_access_token"          # Git Server user password/access token
         email: "git_email"                # Email to use in git config
-        git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
         private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
       
       # Cordapps Repository details (optional if cordapps jar are store in a repository)
@@ -226,14 +226,14 @@ network:
       # Do not check-in git_access_token
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https url for flux value files
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https url for flux value files
         branch: "develop"           # Git branch where release is being made
         release_dir: "platforms/r3-corda-ent/releases/dev" # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
         username: "git_username"          # Git Service user who has rights to check-in in all branches
         password: "git_access_token"          # Git Server user password/access token
         email: "git_email"                # Email to use in git config
-        git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
         private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
       
       # Cordapps Repository details (optional if cordapps jar are store in a repository)
@@ -266,14 +266,14 @@ network:
             root_token: "float_vault_root_token"
           gitops:
             git_protocol: "https" # Option for git over https or ssh
-            git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https url for flux value files
+            git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https url for flux value files
             branch: "develop"           # Git branch where release is being made
             release_dir: "platforms/r3-corda-ent/releases/float" # Relative Path in the Git repo for flux sync per environment. 
             chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
             username: "git_username"          # Git Service user who has rights to check-in in all branches
             password: "git_access_token"          # Git Server user password/access token
             email: "git_email"                # Email to use in git config
-            git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+            git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
             private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
           ports:
             p2p_port: 40000
@@ -354,14 +354,14 @@ network:
       # Do not check-in git_access_token
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https url for flux value files
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https url for flux value files
         branch: "develop"           # Git branch where release is being made
         release_dir: "platforms/r3-corda-ent/releases/dev" # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
         username: "git_username"          # Git Service user who has rights to check-in in all branches
         password: "git_access_token"          # Git Server user password/access token
         email: "git_email"                # Email to use in git config
-        git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
         private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
       
       # Cordapps Repository details (optional if cordapps jar are store in a repository)
@@ -393,14 +393,14 @@ network:
             root_token: "float_vault_root_token"
           gitops:
             git_protocol: "https" # Option for git over https or ssh
-            git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
+            git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
             branch: "develop"           # Git branch where release is being made
             release_dir: "platforms/r3-corda-ent/releases/float" # Relative Path in the Git repo for flux sync per environment. 
             chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
             username: "git_username"          # Git Service user who has rights to check-in in all branches
             password: "git_access_token"          # Git Server user password/access token
             email: "git_email"                # Email to use in git config
-            git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+            git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
             private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
           ports:
             p2p_port: 40000
@@ -481,14 +481,14 @@ network:
       # Do not check-in git_access_token
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https url for flux value files
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https url for flux value files
         branch: "develop"           # Git branch where release is being made
         release_dir: "platforms/r3-corda-ent/releases/dev" # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
         username: "git_username"          # Git Service user who has rights to check-in in all branches
         password: "git_access_token"          # Git Server user password/access token
         email: "git_email"                # Email to use in git config
-        git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
         private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
 
       # Cordapps Repository details (optional if cordapps jar are store in a repository)
@@ -520,14 +520,14 @@ network:
             root_token: "float_vault_root_token"
           gitops:
             git_protocol: "https" # Option for git over https or ssh
-            git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files   
+            git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files   
             branch: "develop"           # Git branch where release is being made
             release_dir: "platforms/r3-corda-ent/releases/float" # Relative Path in the Git repo for flux sync per environment. 
             chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
             username: "git_username"          # Git Service user who has rights to check-in in all branches
             password: "git_access_token"          # Git Server user password/access token
             email: "git_email"                # Email to use in git config
-            git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+            git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
             private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
           ports:
             p2p_port: 40000
@@ -608,14 +608,14 @@ network:
       # Do not check-in git_access_token
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
         branch: "develop"           # Git branch where release is being made
         release_dir: "platforms/r3-corda-ent/releases/dev" # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
         username: "git_username"          # Git Service user who has rights to check-in in all branches
         password: "git_access_token"          # Git Server user password/access token
         email: "git_email"                # Email to use in git config
-        git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
         private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
       
       # Cordapps Repository details (optional if cordapps jar are store in a repository)
@@ -647,14 +647,14 @@ network:
             root_token: "float_vault_root_token"
           gitops:
             git_protocol: "https" # Option for git over https or ssh
-            git_url: "https://github.com/<username>/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
+            git_url: "https://github.com/nikoturin/blockchain-automation-framework.git"         # Gitops https or ssh url for flux value files 
             branch: "develop"           # Git branch where release is being made
             release_dir: "platforms/r3-corda-ent/releases/float" # Relative Path in the Git repo for flux sync per environment. 
             chart_source: "platforms/r3-corda-ent/charts"     # Relative Path where the Helm charts are stored in Git repo
             username: "git_username"          # Git Service user who has rights to check-in in all branches
             password: "git_access_token"          # Git Server user password/access token
             email: "git_email"                # Email to use in git config
-            git_repo: "github.com/<username>/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
+            git_repo: "github.com/nikoturin/blockchain-automation-framework.git"   # Gitops git repository URL for git push 
             private_key: "path_to_private_key"          # Optional (required when protocol is ssh) : Path to private key file which has write-access to the git repo
           ports:
             p2p_port: 40000

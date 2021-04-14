@@ -174,12 +174,12 @@ For gitops fields the snapshot from the sample configuration file with the examp
       # Git Repo details which will be used by GitOps/Flux.
       gitops:
         git_protocol: "https" # Option for git over https or ssh
-        git_url: "https://github.com/<username>/blockchain-automation-framework.git" # Gitops htpps or ssh url for flux value files
+        git_url: "https://github.com/nikoturin/blockchain-automation-framework.git" # Gitops htpps or ssh url for flux value files
         branch: "<branch_name>"                                                  # Git branch where release is being made
         release_dir: "platforms/hyperledger-besu/releases/dev" # Relative Path in the Git repo for flux sync per environment. 
         chart_source: "platforms/hyperledger-besu/charts"      # Relative Path where the Helm charts are stored in Git repo
-        git_repo: "github.com/<username>/blockchain-automation-framework.git" # without https://
-        username: "<username>"          # Git Service user who has rights to check-in in all branches
+        git_repo: "github.com/nikoturin/blockchain-automation-framework.git" # without https://
+        username: "nikoturin"          # Git Service user who has rights to check-in in all branches
         password: "<password>"          # Git Server user password/personal token
         email: "<git_email>"              # Email to use in git config
         private_key: "<path to gitops private key>"
